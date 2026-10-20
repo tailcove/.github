@@ -171,5 +171,5 @@ Issues and pull requests are welcome on each client repository. If you believe y
 <br>
 
 <p align="center">
-  <sub>Powered by <a href="https://akcybex.com">AKCybex</a> &nbsp;·&nbsp; <a href="https://tailcove.dev">tailcove.dev</a></sub>
+  <sub>Built by <a href="https://akcybex.com">AKCybex</a> &nbsp;·&nbsp; <a href="https://tailcove.dev">tailcove.dev</a></sub>
 </p>

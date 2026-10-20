@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Tailcove for Python: Python logs, with plain logging">
+  <defs>
+    <radialGradient id="g1" cx="0.16" cy="0.3" r="0.6"><stop offset="0" stop-color="#2DD4BF" stop-opacity="0.30"/><stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g2" cx="0.88" cy="0.92" r="0.55"><stop offset="0" stop-color="#6366F1" stop-opacity="0.26"/><stop offset="1" stop-color="#6366F1" stop-opacity="0"/></radialGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5EEAD4"/><stop offset="0.5" stop-color="#5EEAD4" stop-opacity="0.15"/><stop offset="1" stop-color="#818CF8"/></linearGradient>
+    <linearGradient id="word" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#C7FFF3"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity="0.035"/></pattern>
+    <clipPath id="card"><rect x="640" y="52" width="500" height="317" rx="14"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="420" fill="#0A0A0A"/>
+  <rect width="1200" height="420" fill="url(#grid)"/>
+  <rect width="1200" height="420" fill="url(#g1)"/>
+  <rect width="1200" height="420" fill="url(#g2)"/>
+
+  <!-- mark + wordmark + package pill -->
+  <g transform="translate(72 64)">
+    <rect width="44" height="44" rx="10" fill="#A6E3D2"/>
+    <g fill="#0A0A0A">
+      <rect x="9" y="11" width="26" height="6" rx="1.6"/><rect x="19" y="17" width="6" height="19" rx="1.6"/>
+      <rect x="9" y="27" width="6" height="9" rx="1.6"/><rect x="29" y="27" width="6" height="9" rx="1.6"/>
+    </g>
+    <text x="58" y="33" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="-1" fill="url(#word)">tailcove</text>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" font-weight="500">
+    <rect x="252" y="73" width="88" height="26" rx="13" fill="#2DD4BF" fill-opacity="0.12" stroke="#2DD4BF" stroke-opacity="0.45"/>
+    <text x="296" y="90.5" text-anchor="middle" fill="#5EEAD4">tailcove</text>
+  </g>
+
+  <!-- headline -->
+  <g font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif">
+    <text x="72" y="198" font-size="48" font-weight="700" letter-spacing="-1.4" fill="#EDEDEC">Python logs,</text>
+    <text x="72" y="254" font-size="48" font-weight="700" letter-spacing="-1.4" fill="url(#word)">with plain logging</text>
+    <text x="72" y="294" font-size="16" fill="#9A9A96">Standard library only · background thread · never raises.</text>
+  </g>
+
+  <!-- install command -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="500">
+    <rect x="72" y="326" width="242" height="40" rx="10" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.14"/>
+    <text x="92" y="351" fill="#5EEAD4">$</text>
+    <text x="110" y="351" fill="#E6E6E2">pip install tailcove</text>
+  </g>
+
+  <!-- code card -->
+  <rect x="639" y="51" width="502" height="319" rx="15" fill="url(#ring)"/>
+  <rect x="640" y="52" width="500" height="317" rx="14" fill="#0F1413"/>
+  <g clip-path="url(#card)">
+    <rect x="640" y="52" width="500" height="38" fill="#FFFFFF" fill-opacity="0.03"/>
+    <line x1="640" y1="90.5" x2="1140" y2="90.5" stroke="#FFFFFF" stroke-opacity="0.07"/>
+    <circle cx="662" cy="71" r="5" fill="#FF5F57"/><circle cx="680" cy="71" r="5" fill="#FEBC2E"/><circle cx="698" cy="71" r="5" fill="#28C840"/>
+    <text x="890" y="76" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#7C8785">app.py</text>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
+      <text x="664" y="124" xml:space="preserve"><tspan fill="#A5B4FC">import</tspan><tspan fill="#D4D4D0"> logging</tspan></text>
+      <text x="664" y="149" xml:space="preserve"><tspan fill="#A5B4FC">from</tspan><tspan fill="#D4D4D0"> tailcove </tspan><tspan fill="#A5B4FC">import</tspan><tspan fill="#E5E7EB"> TailcoveHandler</tspan></text>
+      <text x="664" y="199" xml:space="preserve"><tspan fill="#D4D4D0">log = logging.</tspan><tspan fill="#E5E7EB">getLogger</tspan><tspan fill="#D4D4D0">(</tspan><tspan fill="#5EEAD4">&quot;myapp&quot;</tspan><tspan fill="#D4D4D0">)</tspan></text>
+      <text x="664" y="224" xml:space="preserve"><tspan fill="#D4D4D0">log.</tspan><tspan fill="#E5E7EB">addHandler</tspan><tspan fill="#D4D4D0">(</tspan><tspan fill="#E5E7EB">TailcoveHandler</tspan><tspan fill="#D4D4D0">(token=TOKEN))</tspan></text>
+      <text x="664" y="274" xml:space="preserve"><tspan fill="#D4D4D0">log.</tspan><tspan fill="#E5E7EB">info</tspan><tspan fill="#D4D4D0">(</tspan><tspan fill="#5EEAD4">&quot;user signed up&quot;</tspan><tspan fill="#D4D4D0">,</tspan></text>
+      <text x="664" y="299" xml:space="preserve"><tspan fill="#D4D4D0">         extra={</tspan><tspan fill="#5EEAD4">&quot;user_id&quot;</tspan><tspan fill="#D4D4D0">: </tspan><tspan fill="#FBBF24">42</tspan><tspan fill="#D4D4D0">})</tspan></text>
+      <text x="664" y="324" xml:space="preserve"><tspan fill="#D4D4D0">log.</tspan><tspan fill="#E5E7EB">error</tspan><tspan fill="#D4D4D0">(</tspan><tspan fill="#5EEAD4">&quot;payment failed&quot;</tspan><tspan fill="#D4D4D0">, exc_info=</tspan><tspan fill="#A5B4FC">True</tspan><tspan fill="#D4D4D0">)</tspan></text>
+    </g>
+  </g>
+
+  <text x="1140" y="397" text-anchor="end" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#7C8785">Django · Flask · structured exceptions · zero dependencies</text>
+</svg>
