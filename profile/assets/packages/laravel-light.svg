@@ -5,9 +5,11 @@
     <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0F766E"/><stop offset="0.5" stop-color="#0F766E" stop-opacity="0.15"/><stop offset="1" stop-color="#6366F1"/></linearGradient>
     <linearGradient id="word" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0A0A0A"/><stop offset="1" stop-color="#134E4A"/></linearGradient>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#000000" stroke-opacity="0.045"/></pattern>
+    <clipPath id="hclip"><rect width="1200" height="420" rx="20"/></clipPath>
     <clipPath id="card"><rect x="640" y="64" width="500" height="292" rx="14"/></clipPath>
   </defs>
 
+  <g clip-path="url(#hclip)">
   <rect width="1200" height="420" fill="#FAFAF7"/>
   <rect width="1200" height="420" fill="url(#grid)"/>
   <rect width="1200" height="420" fill="url(#g1)"/>
@@ -61,4 +63,6 @@
   </g>
 
   <text x="1140" y="396" text-anchor="end" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#6B6B66">Slow queries · failed jobs · scheduler failures · queue mode</text>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="419" rx="19.5" fill="none" stroke="#000000" stroke-opacity="0.12"/>
 </svg>
