@@ -1,19 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Tailcove for Python: Python logs, with plain logging">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="556" viewBox="0 0 1200 556" role="img" aria-label="Tailcove for Python: Python logs, with plain logging">
   <defs>
     <radialGradient id="g1" cx="0.16" cy="0.3" r="0.6"><stop offset="0" stop-color="#2DD4BF" stop-opacity="0.30"/><stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/></radialGradient>
     <radialGradient id="g2" cx="0.88" cy="0.92" r="0.55"><stop offset="0" stop-color="#6366F1" stop-opacity="0.26"/><stop offset="1" stop-color="#6366F1" stop-opacity="0"/></radialGradient>
     <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5EEAD4"/><stop offset="0.5" stop-color="#5EEAD4" stop-opacity="0.15"/><stop offset="1" stop-color="#818CF8"/></linearGradient>
     <linearGradient id="word" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#C7FFF3"/></linearGradient>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity="0.035"/></pattern>
-    <clipPath id="hclip"><rect width="1200" height="420" rx="20"/></clipPath>
+    <clipPath id="hclip"><rect width="1200" height="556" rx="20"/></clipPath>
     <clipPath id="card"><rect x="640" y="52" width="500" height="317" rx="14"/></clipPath>
   </defs>
 
   <g clip-path="url(#hclip)">
-  <rect width="1200" height="420" fill="#0A0A0A"/>
-  <rect width="1200" height="420" fill="url(#grid)"/>
-  <rect width="1200" height="420" fill="url(#g1)"/>
-  <rect width="1200" height="420" fill="url(#g2)"/>
+  <rect width="1200" height="556" fill="#0A0A0A"/>
+  <rect width="1200" height="556" fill="url(#grid)"/>
+  <rect width="1200" height="556" fill="url(#g1)"/>
+  <rect width="1200" height="556" fill="url(#g2)"/>
 
   <!-- mark + wordmark + package pill -->
   <g transform="translate(72 64)">
@@ -62,7 +62,47 @@
     </g>
   </g>
 
-  <text x="1140" y="397" text-anchor="end" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#7C8785">Django · Flask · structured exceptions · zero dependencies</text>
+  <!-- round icon buttons (left) and footnote (right) under the card -->
+  <g>
+    <circle cx="657.0" cy="397" r="16.5" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.18"/>
+    <g transform="translate(649.0 389) scale(0.6666666666666666)" fill="none" stroke="#EDEDEC" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H19v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5V5.5M8 7h7"/></g>
+    <defs><linearGradient id="rb1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2DD4BF"/><stop offset="1" stop-color="#5EEAD4"/></linearGradient></defs><circle cx="701.0" cy="397" r="17.0" fill="url(#rb1)"/>
+    <g transform="translate(693.0 389) scale(0.6666666666666666)" fill="none" stroke="#04211C" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></g>
+    <circle cx="745.0" cy="397" r="16.5" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.18"/>
+    <g transform="translate(737.0 389) scale(0.6666666666666666)" fill="none" stroke="#EDEDEC" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7l9-4 9 4v10l-9 4-9-4z"/><path d="m3 7 9 4 9-4M12 11v10"/></g>
+    <circle cx="789.0" cy="397" r="16.5" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.18"/>
+    <g transform="translate(781.0 389) scale(0.6666666666666666)" fill="none" stroke="#EDEDEC" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="8" height="11" rx="4"/><path d="M12 8V5M9 5.5 10.5 8M15 5.5 13.5 8M4.5 12H8M16 12h3.5M4.5 17H8M16 17h3.5"/></g>
+    <text x="1140" y="394" text-anchor="end" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#7C8785">Django · Flask · structured exceptions</text><text x="1140" y="410" text-anchor="end" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#7C8785">zero dependencies</text>
   </g>
-  <rect x="0.5" y="0.5" width="1199" height="419" rx="19.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.12"/>
+
+  <!-- live stats -->
+  <g>
+    <rect x="72.5" y="432.5" width="1055" height="91" rx="18" fill="#FFFFFF" fill-opacity="0.045" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <g transform="translate(100 449) scale(0.5416666666666666)" fill="none" stroke="#5EEAD4" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12V4h8l10 10-7 7z"/><circle cx="7.5" cy="8.5" r="1.2"/></g>
+    <text x="120.0" y="460" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="1.2" fill="#8B9694">VERSION</text>
+    <text x="100.0" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#5EEAD4">0.1.2</text>
+    <text x="100.0" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#7C8785">released Oct 20, 2026</text>
+    <rect x="322.0" y="452" width="1" height="52" fill="#FFFFFF" fill-opacity="0.09"/>
+    <g transform="translate(349.9766081871345 449) scale(0.5416666666666666)" fill="none" stroke="#5EEAD4" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4"/></g>
+    <text x="370.0" y="460" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="1.2" fill="#8B9694">PYTHON</text>
+    <text x="350.0" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#F4F4F2">3.9<tspan font-size="14" font-weight="600" fill="#8B9694" dx="3">+</tspan></text>
+    <text x="350.0" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#7C8785">and newer</text>
+    <rect x="490.3" y="452" width="1" height="52" fill="#FFFFFF" fill-opacity="0.09"/>
+    <g transform="translate(518.2573099415205 449) scale(0.5416666666666666)" fill="none" stroke="#5EEAD4" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7l9-4 9 4v10l-9 4-9-4z"/><path d="m3 7 9 4 9-4M12 11v10"/></g>
+    <text x="538.3" y="460" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="1.2" fill="#8B9694">DEPENDENCIES</text>
+    <text x="518.3" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#F4F4F2">None</text>
+    <text x="518.3" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#7C8785">standard library only</text>
+    <rect x="740.2" y="452" width="1" height="52" fill="#FFFFFF" fill-opacity="0.09"/>
+    <g transform="translate(768.233918128655 449) scale(0.5416666666666666)" fill="none" stroke="#5EEAD4" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4C6 4 7 9 4 12c3 3 2 8 5 8M15 4c3 0 2 5 5 8-3 3-2 8-5 8"/></g>
+    <text x="788.2" y="460" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="1.2" fill="#8B9694">TYPED</text>
+    <text x="768.2" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#F4F4F2">Yes</text>
+    <text x="768.2" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#7C8785">ships type hints</text>
+    <rect x="949.7" y="452" width="1" height="52" fill="#FFFFFF" fill-opacity="0.09"/>
+    <g transform="translate(977.6842105263158 449) scale(0.5416666666666666)" fill="none" stroke="#5EEAD4" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M5 7h14"/><path d="M5 7 2 14a3.5 3.5 0 0 0 6 0zM19 7l-3 7a3.5 3.5 0 0 0 6 0z"/></g>
+    <text x="997.7" y="460" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="1.2" fill="#8B9694">LICENSE</text>
+    <text x="977.7" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#F4F4F2">MIT</text>
+    <text x="977.7" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#7C8785">open source</text>
+  </g>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="555" rx="19.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.12"/>
 </svg>
