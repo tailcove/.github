@@ -1,27 +1,14 @@
-<picture>
+<a href="https://tailcove.dev"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/hero-light.svg">
-  <img alt="Tailcove — log management for developers who ship fast" src="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/hero-dark.svg" width="100%">
-</picture>
+  <img alt="Tailcove: log management for developers who ship fast. Current versions of the Laravel, Node.js, Python and browser libraries." src="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/hero-dark.svg" width="100%">
+</picture></a>
 
 <p align="center">
-  <a href="https://tailcove.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/btn-website-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/btn-website-light.svg"><img alt="tailcove.dev" src="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/btn-website-dark.svg" height="40"></picture></a>
-  &nbsp;
-  <a href="https://tailcove.dev/docs"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/btn-docs-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/btn-docs-light.svg"><img alt="Documentation" src="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/btn-docs-dark.svg" height="40"></picture></a>
-  &nbsp;
-  <a href="https://tailcove.dev/pricing"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/btn-pricing-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/btn-pricing-light.svg"><img alt="Pricing" src="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/btn-pricing-dark.svg" height="40"></picture></a>
-  &nbsp;
-  <a href="https://app.tailcove.dev/register"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/btn-start-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/btn-start-light.svg"><img alt="Get started free" src="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/btn-start-dark.svg" height="40"></picture></a>
-</p>
-
-<p align="center">
-  <a href="https://packagist.org/packages/tailcove/laravel"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/regcard-laravel-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/regcard-laravel-light.svg"><img alt="tailcove/laravel on Packagist" src="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/regcard-laravel-dark.svg"></picture></a>
-  &nbsp;
-  <a href="https://www.npmjs.com/package/@tailcove/node"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/regcard-node-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/regcard-node-light.svg"><img alt="@tailcove/node on npm" src="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/regcard-node-dark.svg"></picture></a>
-  &nbsp;
-  <a href="https://pypi.org/project/tailcove/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/regcard-python-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/regcard-python-light.svg"><img alt="tailcove on PyPI" src="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/regcard-python-dark.svg"></picture></a>
-  &nbsp;
-  <a href="https://www.npmjs.com/package/@tailcove/browser"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/regcard-browser-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/regcard-browser-light.svg"><img alt="@tailcove/browser on npm" src="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/regcard-browser-dark.svg"></picture></a>
+  <a href="https://tailcove.dev">Website</a> &nbsp;·&nbsp;
+  <a href="https://tailcove.dev/docs">Documentation</a> &nbsp;·&nbsp;
+  <a href="https://tailcove.dev/pricing">Pricing</a> &nbsp;·&nbsp;
+  <a href="https://app.tailcove.dev/register">Get started free</a>
 </p>
 
 <h3 align="center">One <code>composer require</code> away from searchable, alertable, grouped logs.</h3>
