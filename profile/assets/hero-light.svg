@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Tailcove — log management for developers who ship fast">
+  <defs>
+    <radialGradient id="g1" cx="0.18" cy="0.3" r="0.6">
+      <stop offset="0" stop-color="#2DD4BF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="0.85" cy="0.9" r="0.55">
+      <stop offset="0" stop-color="#6366F1" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5EEAD4"/>
+      <stop offset="0.5" stop-color="#5EEAD4" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+    <linearGradient id="wordmark" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0A0A0A"/>
+      <stop offset="1" stop-color="#0F766E"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#000000" stroke-opacity="0.06"/>
+    </pattern>
+    <clipPath id="card"><rect x="640" y="56" width="500" height="308" rx="14"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="420" fill="#FAFAFA"/>
+  <rect width="1200" height="420" fill="url(#grid)"/>
+  <rect width="1200" height="420" fill="url(#g1)"/>
+  <rect width="1200" height="420" fill="url(#g2)"/>
+
+  <!-- Left: mark + wordmark -->
+  <g transform="translate(72 112)">
+    <rect x="0" y="0" width="56" height="56" rx="12" fill="#A6E3D2"/>
+    <g fill="#0A0A0A">
+      <rect x="12" y="14" width="32" height="8" rx="2"/>
+      <rect x="24" y="22" width="8" height="24" rx="2"/>
+      <rect x="12" y="34" width="8" height="12" rx="2"/>
+      <rect x="36" y="34" width="8" height="12" rx="2"/>
+    </g>
+    <text x="74" y="44" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="-1.5" fill="url(#wordmark)" textLength="194" lengthAdjust="spacingAndGlyphs">tailcove</text>
+  </g>
+
+  <g font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif">
+    <text x="72" y="222" font-size="28" font-weight="600" letter-spacing="-0.6" fill="#0A0A0A" textLength="480" lengthAdjust="spacingAndGlyphs">Log management for developers</text>
+    <text x="72" y="258" font-size="28" font-weight="600" letter-spacing="-0.6" fill="#0A0A0A">who ship fast.</text>
+    <text x="72" y="298" font-size="15.5" fill="#5F5F5B" textLength="440" lengthAdjust="spacingAndGlyphs">Ingest · Search · Live tail · Alerts · Uptime — built Laravel-first.</text>
+  </g>
+
+  <!-- Pills -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="500">
+    <rect x="72" y="322" width="138" height="28" rx="14" fill="#2DD4BF" fill-opacity="0.12" stroke="#2DD4BF" stroke-opacity="0.45"/>
+    <text x="141" y="340" text-anchor="middle" fill="#0F766E" textLength="112" lengthAdjust="spacingAndGlyphs">tailcove/laravel</text>
+    <rect x="218" y="322" width="124" height="28" rx="14" fill="#000000" fill-opacity="0.04" stroke="#000000" stroke-opacity="0.12"/>
+    <text x="280" y="340" text-anchor="middle" fill="#2A2A28" textLength="98" lengthAdjust="spacingAndGlyphs">@tailcove/node</text>
+    <rect x="350" y="322" width="82" height="28" rx="14" fill="#000000" fill-opacity="0.04" stroke="#000000" stroke-opacity="0.12"/>
+    <text x="391" y="340" text-anchor="middle" fill="#2A2A28" textLength="56" lengthAdjust="spacingAndGlyphs">tailcove</text>
+    <rect x="440" y="322" width="146" height="28" rx="14" fill="#000000" fill-opacity="0.04" stroke="#000000" stroke-opacity="0.12"/>
+    <text x="513" y="340" text-anchor="middle" fill="#2A2A28" textLength="119" lengthAdjust="spacingAndGlyphs">@tailcove/browser</text>
+  </g>
+
+  <!-- Right: live-tail terminal card -->
+  <rect x="639" y="55" width="502" height="310" rx="15" fill="url(#ring)"/>
+  <rect x="640" y="56" width="500" height="308" rx="14" fill="#0F1413"/>
+  <g clip-path="url(#card)">
+    <rect x="640" y="56" width="500" height="38" fill="#FFFFFF" fill-opacity="0.03"/>
+    <line x1="640" y1="94.5" x2="1140" y2="94.5" stroke="#FFFFFF" stroke-opacity="0.07"/>
+    <circle cx="662" cy="75" r="5" fill="#FF5F57"/>
+    <circle cx="680" cy="75" r="5" fill="#FEBC2E"/>
+    <circle cx="698" cy="75" r="5" fill="#28C840"/>
+    <text x="890" y="80" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#7C8785" textLength="176" lengthAdjust="spacingAndGlyphs">api-production · live tail</text>
+    <circle cx="1120" cy="75" r="4" fill="#2DD4BF"/>
+    <circle cx="1120" cy="75" r="7" fill="none" stroke="#2DD4BF" stroke-opacity="0.35"/>
+
+    <!-- log lines: timestamps at x=660 (84px), level pill at x=764, message at x=814, max message width 306 -->
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">
+      <g transform="translate(660 122)" opacity="0.45">
+        <text fill="#6B7472" textLength="84" lengthAdjust="spacingAndGlyphs">14:02:11.204</text>
+        <rect x="104" y="-11" width="40" height="16" rx="4" fill="#2DD4BF" fill-opacity="0.15"/><text x="124" y="1" text-anchor="middle" font-size="10.5" font-weight="600" fill="#5EEAD4" textLength="26" lengthAdjust="spacingAndGlyphs">INFO</text>
+        <text x="154" fill="#C9D1CE" textLength="210" lengthAdjust="spacingAndGlyphs">GET /api/orders → 200 in 38ms</text>
+      </g>
+      <g transform="translate(660 150)" opacity="0.65">
+        <text fill="#6B7472" textLength="84" lengthAdjust="spacingAndGlyphs">14:02:11.388</text>
+        <rect x="104" y="-11" width="40" height="16" rx="4" fill="#2DD4BF" fill-opacity="0.15"/><text x="124" y="1" text-anchor="middle" font-size="10.5" font-weight="600" fill="#5EEAD4" textLength="26" lengthAdjust="spacingAndGlyphs">INFO</text>
+        <text x="154" fill="#C9D1CE" textLength="266" lengthAdjust="spacingAndGlyphs">order.placed {"id": 1042, "total": 49}</text>
+      </g>
+      <g transform="translate(660 178)" opacity="0.85">
+        <text fill="#6B7472" textLength="84" lengthAdjust="spacingAndGlyphs">14:02:11.912</text>
+        <rect x="104" y="-11" width="40" height="16" rx="4" fill="#F59E0B" fill-opacity="0.18"/><text x="124" y="1" text-anchor="middle" font-size="10.5" font-weight="600" fill="#FBBF24" textLength="30" lengthAdjust="spacingAndGlyphs">WARN</text>
+        <text x="154" fill="#C9D1CE" textLength="280" lengthAdjust="spacingAndGlyphs">query.slow 1240ms SELECT * FROM invoices</text>
+      </g>
+      <g transform="translate(660 206)">
+        <text fill="#6B7472" textLength="84" lengthAdjust="spacingAndGlyphs">14:02:12.047</text>
+        <rect x="104" y="-11" width="46" height="16" rx="4" fill="#F43F5E" fill-opacity="0.18"/><text x="127" y="1" text-anchor="middle" font-size="10.5" font-weight="600" fill="#FB7185" textLength="34" lengthAdjust="spacingAndGlyphs">ERROR</text>
+        <text x="160" fill="#EDEDEC" textLength="224" lengthAdjust="spacingAndGlyphs">CardDeclined: insufficient funds</text>
+      </g>
+      <g transform="translate(660 230)">
+        <text x="160" fill="#7C8785" font-size="11.5" textLength="250" lengthAdjust="spacingAndGlyphs">app/Billing/Charge.php:42 → issue #418</text>
+      </g>
+      <g transform="translate(660 262)">
+        <text fill="#6B7472" textLength="84" lengthAdjust="spacingAndGlyphs">14:02:12.201</text>
+        <rect x="104" y="-11" width="40" height="16" rx="4" fill="#2DD4BF" fill-opacity="0.15"/><text x="124" y="1" text-anchor="middle" font-size="10.5" font-weight="600" fill="#5EEAD4" textLength="26" lengthAdjust="spacingAndGlyphs">INFO</text>
+        <text x="154" fill="#C9D1CE" textLength="270" lengthAdjust="spacingAndGlyphs">alert.fired "errors &gt; 5/min" → #oncall</text>
+      </g>
+      <g transform="translate(660 290)">
+        <text fill="#6B7472" textLength="84" lengthAdjust="spacingAndGlyphs">14:02:12.455</text>
+        <rect x="104" y="-11" width="40" height="16" rx="4" fill="#2DD4BF" fill-opacity="0.15"/><text x="124" y="1" text-anchor="middle" font-size="10.5" font-weight="600" fill="#5EEAD4" textLength="26" lengthAdjust="spacingAndGlyphs">INFO</text>
+        <text x="154" fill="#C9D1CE" textLength="224" lengthAdjust="spacingAndGlyphs">POST /api/checkout → 402 in 61ms</text>
+      </g>
+      <rect x="660" y="311" width="8" height="15" fill="#5EEAD4"/>
+    </g>
+    <rect x="662" y="336" width="456" height="1" fill="#FFFFFF" fill-opacity="0.06"/>
+  </g>
+
+  <text x="1140" y="392" text-anchor="end" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#7C8785" textLength="400" lengthAdjust="spacingAndGlyphs">Sub-second search · One bug, one issue · Pay for GB, not seats</text>
+</svg>
