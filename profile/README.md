@@ -15,7 +15,7 @@
   exception grouping, alerts and uptime monitoring — metered on gigabytes, not seats.
 </p>
 
-<img alt="How Tailcove works: your apps send logs over HTTP or syslog, Tailcove never slows your app down, and you get search, issues, alerts and uptime" src="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/flow.svg" width="100%">
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/flow.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/flow-light.svg"><img alt="How Tailcove works: your apps send logs over HTTP or syslog, Tailcove never slows your app down, and you get search, issues, alerts and uptime" src="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/flow.svg" width="100%"></picture>
 
 <br>
 
