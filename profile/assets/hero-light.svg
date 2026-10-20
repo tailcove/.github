@@ -21,7 +21,9 @@
       <path d="M32 0H0V32" fill="none" stroke="#000000" stroke-opacity="0.06"/>
     </pattern>
     <clipPath id="card"><rect x="640" y="56" width="500" height="308" rx="14"/></clipPath>
+    <clipPath id="heroClip"><rect width="1200" height="420" rx="20"/></clipPath>
   </defs>
+  <g clip-path="url(#heroClip)">
 
   <rect width="1200" height="420" fill="#FAFAFA"/>
   <rect width="1200" height="420" fill="url(#grid)"/>
@@ -112,4 +114,6 @@
   </g>
 
   <text x="1140" y="392" text-anchor="end" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#7C8785" textLength="400" lengthAdjust="spacingAndGlyphs">Sub-second search · One bug, one issue · Pay for GB, not seats</text>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="419" rx="19.5" fill="none" stroke="#000000" stroke-opacity="0.12"/>
 </svg>
