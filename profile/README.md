@@ -118,36 +118,11 @@ Point an HTTP sink at `https://ingest.tailcove.dev/api/v1/logs` with a bearer to
 
 ## What you get
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h4>🔎 &nbsp;Search &amp; live tail</h4>
-      Sub-second structured search over every field you send. Watch requests stream in live, pause, filter, save the query.
-    </td>
-    <td width="33%" valign="top">
-      <h4>🧩 &nbsp;Issues</h4>
-      Exceptions are fingerprinted across all four clients and grouped into one issue with first-seen, last-seen and occurrence counts. One bug, one row.
-    </td>
-    <td width="33%" valign="top">
-      <h4>🔔 &nbsp;Alerts</h4>
-      Turn any search into an alert with a threshold. Delivered to email, Slack and webhooks, with durable retries and resolve notifications.
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <h4>🟢 &nbsp;Uptime &amp; status pages</h4>
-      HTTP monitors with keyword checks and a two-strikes state machine. Publish a public status page in a click.
-    </td>
-    <td valign="top">
-      <h4>📦 &nbsp;Log drains</h4>
-      Scheduled exports to any S3-compatible bucket for long-term retention and compliance, per source.
-    </td>
-    <td valign="top">
-      <h4>🏷️ &nbsp;Built for agencies</h4>
-      Group sources by client, white-label the UI, hand out read-only API tokens. Run logging for everyone you build for.
-    </td>
-  </tr>
-</table>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/features-profile-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/features-profile-light.svg">
+  <img alt="What you get: search and live tail, issues, alerts, uptime and status pages, log drains, and tools for agencies" src="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/features-profile-dark.svg" width="100%">
+</picture>
 
 <br>
 
@@ -170,6 +145,16 @@ Issues and pull requests are welcome on each client repository. If you believe y
 
 <br>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/footer-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/footer-light.svg">
+  <img alt="Tailcove. Built by AKCybex." src="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/footer-dark.svg" width="100%">
+</picture>
+
 <p align="center">
-  <sub>Built by <a href="https://akcybex.com">AKCybex</a> &nbsp;·&nbsp; <a href="https://tailcove.dev">tailcove.dev</a></sub>
+  <a href="https://tailcove.dev">Website</a> &nbsp;·&nbsp;
+  <a href="https://tailcove.dev/docs">Documentation</a> &nbsp;·&nbsp;
+  <a href="https://tailcove.dev/pricing">Pricing</a> &nbsp;·&nbsp;
+  <a href="https://app.tailcove.dev/register">Get started free</a> &nbsp;·&nbsp;
+  <a href="https://akcybex.com">AKCybex</a>
 </p>
