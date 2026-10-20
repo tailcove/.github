@@ -1,8 +1,4 @@
-<a href="https://tailcove.dev"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/hero-light.svg">
-  <img alt="Tailcove: log management for developers who ship fast. Current versions of the Laravel, Node.js, Python and browser libraries." src="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/hero-dark.svg" width="100%">
-</picture></a>
+<a href="https://tailcove.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/hero-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/hero-light.svg"><img alt="Tailcove: log management for developers who ship fast. Current versions of the Laravel, Node.js, Python and browser libraries." src="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/hero-dark.svg" width="100%"></picture></a>
 
 <p align="center">
   <a href="https://tailcove.dev">Website</a> &nbsp;·&nbsp;
