@@ -78,26 +78,26 @@
     <text x="120.0" y="460" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="1.2" fill="#9399A8">VERSION</text>
     <text x="100.0" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#FFB199">0.1.5</text>
     <text x="100.0" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#6C7283">released Oct 20, 2026</text>
-    <rect x="287.8" y="452" width="1" height="52" fill="#FFFFFF" fill-opacity="0.09"/>
-    <g transform="translate(315.7753707014407 449) scale(0.5416666666666666)" fill="none" stroke="#FFB199" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4"/></g>
-    <text x="335.8" y="460" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="1.2" fill="#9399A8">PHP</text>
-    <text x="315.8" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#F4F5F8">8.2<tspan font-size="14" font-weight="600" fill="#9399A8" dx="3">+</tspan></text>
-    <text x="315.8" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#6C7283">and newer</text>
-    <rect x="420.6" y="452" width="1" height="52" fill="#FFFFFF" fill-opacity="0.09"/>
-    <g transform="translate(448.594384267536 449) scale(0.5416666666666666)" fill="none" stroke="#FFB199" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="m12 2 10 6-10 6L2 8z"/><path d="m2 12 10 6 10-6"/></g>
-    <text x="468.6" y="460" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="1.2" fill="#9399A8">LARAVEL</text>
-    <text x="448.6" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#F4F5F8">11 · 12 · 13</text>
-    <text x="448.6" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#6C7283">supported majors</text>
-    <rect x="681.3" y="452" width="1" height="52" fill="#FFFFFF" fill-opacity="0.09"/>
-    <g transform="translate(709.346093174887 449) scale(0.5416666666666666)" fill="none" stroke="#FFB199" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></g>
-    <text x="729.3" y="460" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="1.2" fill="#9399A8">SENT</text>
-    <text x="709.3" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#F4F5F8">After response</text>
-    <text x="709.3" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#6C7283">never slows a request</text>
-    <rect x="974.1" y="452" width="1" height="52" fill="#FFFFFF" fill-opacity="0.09"/>
-    <g transform="translate(1002.0809759175518 449) scale(0.5416666666666666)" fill="none" stroke="#FFB199" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M5 7h14"/><path d="M5 7 2 14a3.5 3.5 0 0 0 6 0zM19 7l-3 7a3.5 3.5 0 0 0 6 0z"/></g>
-    <text x="1022.1" y="460" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="1.2" fill="#9399A8">LICENSE</text>
-    <text x="1002.1" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#F4F5F8">MIT</text>
-    <text x="1002.1" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#6C7283">open source</text>
+    <rect x="301.7" y="452" width="1" height="52" fill="#FFFFFF" fill-opacity="0.09"/>
+    <g transform="translate(329.68857046904736 449) scale(0.5416666666666666)" fill="none" stroke="#FFB199" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4"/></g>
+    <text x="349.7" y="460" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="1.2" fill="#9399A8">PHP</text>
+    <text x="329.7" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#F4F5F8">8.1<tspan font-size="14" font-weight="600" fill="#9399A8" dx="3">+</tspan></text>
+    <text x="329.7" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#6C7283">and newer</text>
+    <rect x="443.1" y="452" width="1" height="52" fill="#FFFFFF" fill-opacity="0.09"/>
+    <g transform="translate(471.0717564088212 449) scale(0.5416666666666666)" fill="none" stroke="#FFB199" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="m12 2 10 6-10 6L2 8z"/><path d="m2 12 10 6 10-6"/></g>
+    <text x="491.1" y="460" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="1.2" fill="#9399A8">LARAVEL</text>
+    <text x="471.1" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#F4F5F8">10 to 13</text>
+    <text x="471.1" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#6C7283">supported majors</text>
+    <rect x="652.5" y="452" width="1" height="52" fill="#FFFFFF" fill-opacity="0.09"/>
+    <g transform="translate(680.5458412627337 449) scale(0.5416666666666666)" fill="none" stroke="#FFB199" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></g>
+    <text x="700.5" y="460" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="1.2" fill="#9399A8">SENT</text>
+    <text x="680.5" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#F4F5F8">After response</text>
+    <text x="680.5" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#6C7283">never slows a request</text>
+    <rect x="964.2" y="452" width="1" height="52" fill="#FFFFFF" fill-opacity="0.09"/>
+    <g transform="translate(992.156274487854 449) scale(0.5416666666666666)" fill="none" stroke="#FFB199" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M5 7h14"/><path d="M5 7 2 14a3.5 3.5 0 0 0 6 0zM19 7l-3 7a3.5 3.5 0 0 0 6 0z"/></g>
+    <text x="1012.2" y="460" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="1.2" fill="#9399A8">LICENSE</text>
+    <text x="992.2" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#F4F5F8">MIT</text>
+    <text x="992.2" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#6C7283">open source</text>
   </g>
   </g>
   <rect x="0.5" y="0.5" width="1199" height="555" rx="19.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.12"/>
