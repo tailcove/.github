@@ -76,28 +76,28 @@
     <rect x="72.5" y="432.5" width="1055" height="91" rx="18" fill="#FFFFFF" fill-opacity="0.045" stroke="#FFFFFF" stroke-opacity="0.12"/>
     <g transform="translate(100 449) scale(0.5416666666666666)" fill="none" stroke="#FFB199" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12V4h8l10 10-7 7z"/><circle cx="7.5" cy="8.5" r="1.2"/></g>
     <text x="120.0" y="460" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="1.2" fill="#9399A8">VERSION</text>
-    <text x="100.0" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#FFB199">0.1.0</text>
-    <text x="100.0" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#6C7283">released Oct 25, 2026</text>
-    <rect x="292.5" y="452" width="1" height="52" fill="#FFFFFF" fill-opacity="0.09"/>
-    <g transform="translate(320.4822695035461 449) scale(0.5416666666666666)" fill="none" stroke="#FFB199" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4"/></g>
-    <text x="340.5" y="460" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="1.2" fill="#9399A8">PLATFORM</text>
-    <text x="320.5" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#F4F5F8">Linux</text>
-    <text x="320.5" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#6C7283">amd64 and arm64</text>
-    <rect x="470.1" y="452" width="1" height="52" fill="#FFFFFF" fill-opacity="0.09"/>
-    <g transform="translate(498.07092198581563 449) scale(0.5416666666666666)" fill="none" stroke="#FFB199" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7l9-4 9 4v10l-9 4-9-4z"/><path d="m3 7 9 4 9-4M12 11v10"/></g>
-    <text x="518.1" y="460" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="1.2" fill="#9399A8">DEPENDENCIES</text>
-    <text x="498.1" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#F4F5F8">None</text>
-    <text x="498.1" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#6C7283">one static binary</text>
-    <rect x="671.6" y="452" width="1" height="52" fill="#FFFFFF" fill-opacity="0.09"/>
-    <g transform="translate(699.6028368794326 449) scale(0.5416666666666666)" fill="none" stroke="#FFB199" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h5l2-6 4 12 2-6h5"/></g>
-    <text x="719.6" y="460" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="1.2" fill="#9399A8">SENDS</text>
-    <text x="699.6" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#F4F5F8">Logs + metrics</text>
-    <text x="699.6" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#6C7283">files and host figures</text>
-    <rect x="970.7" y="452" width="1" height="52" fill="#FFFFFF" fill-opacity="0.09"/>
-    <g transform="translate(998.7234042553191 449) scale(0.5416666666666666)" fill="none" stroke="#FFB199" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M5 7h14"/><path d="M5 7 2 14a3.5 3.5 0 0 0 6 0zM19 7l-3 7a3.5 3.5 0 0 0 6 0z"/></g>
-    <text x="1018.7" y="460" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="1.2" fill="#9399A8">LICENSE</text>
-    <text x="998.7" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#F4F5F8">MIT</text>
-    <text x="998.7" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#6C7283">open source</text>
+    <text x="100.0" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#FFB199">0.2.0</text>
+    <text x="100.0" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#6C7283">released Oct 27, 2026</text>
+    <rect x="271.6" y="452" width="1" height="52" fill="#FFFFFF" fill-opacity="0.09"/>
+    <g transform="translate(299.63105662580267 449) scale(0.5416666666666666)" fill="none" stroke="#FFB199" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4"/></g>
+    <text x="319.6" y="460" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="1.2" fill="#9399A8">PLATFORM</text>
+    <text x="299.6" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#F4F5F8">Linux, macOS</text>
+    <text x="299.6" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#6C7283">amd64 and arm64</text>
+    <rect x="512.9" y="452" width="1" height="52" fill="#FFFFFF" fill-opacity="0.09"/>
+    <g transform="translate(540.8733216579101 449) scale(0.5416666666666666)" fill="none" stroke="#FFB199" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7l9-4 9 4v10l-9 4-9-4z"/><path d="m3 7 9 4 9-4M12 11v10"/></g>
+    <text x="560.9" y="460" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="1.2" fill="#9399A8">DEPENDENCIES</text>
+    <text x="540.9" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#F4F5F8">None</text>
+    <text x="540.9" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#6C7283">one static binary</text>
+    <rect x="695.3" y="452" width="1" height="52" fill="#FFFFFF" fill-opacity="0.09"/>
+    <g transform="translate(723.3461762988909 449) scale(0.5416666666666666)" fill="none" stroke="#FFB199" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h5l2-6 4 12 2-6h5"/></g>
+    <text x="743.3" y="460" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="1.2" fill="#9399A8">SENDS</text>
+    <text x="723.3" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#F4F5F8">Logs + metrics</text>
+    <text x="723.3" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#6C7283">files, journald, Docker, Kubernetes</text>
+    <rect x="985.6" y="452" width="1" height="52" fill="#FFFFFF" fill-opacity="0.09"/>
+    <g transform="translate(1013.5971978984238 449) scale(0.5416666666666666)" fill="none" stroke="#FFB199" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M5 7h14"/><path d="M5 7 2 14a3.5 3.5 0 0 0 6 0zM19 7l-3 7a3.5 3.5 0 0 0 6 0z"/></g>
+    <text x="1033.6" y="460" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="1.2" fill="#9399A8">LICENSE</text>
+    <text x="1013.6" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#F4F5F8">MIT</text>
+    <text x="1013.6" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#6C7283">open source</text>
   </g>
   </g>
   <rect x="0.5" y="0.5" width="1199" height="555" rx="19.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.12"/>
