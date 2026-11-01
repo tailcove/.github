@@ -1,0 +1,48 @@
+name: refresh-banners
+
+# Keeps the version, release date and size on the package banners and on the organization profile current,
+# with no token and nothing to remember after a release: every hour it reads the registries (npm, PyPI,
+# Packagist and the GitHub releases of the agent and the Terraform provider), regenerates the banners with
+# tools/banners and commits only when a file changed. A release shows up within the hour. The READMEs link to
+# these files by URL and do not change.
+on:
+  schedule:
+    - cron: '23 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-banners
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      # a registry that cannot be read stops the run here, so a half-updated set is never committed
+      - name: Generate
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: |
+          python3 tools/banners/make_heroes.py profile/assets/packages
+          python3 tools/banners/make_profile_hero.py profile/assets
+      - name: Commit what changed
+        run: |
+          if git diff --quiet; then
+            echo "The banners are current." | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/assets
+          git commit -m "Refresh the banners"
+          git pull --rebase -q origin main
+          git push origin HEAD:main
+          git show --stat --format='Refreshed the banners:' HEAD | tee -a "$GITHUB_STEP_SUMMARY"
