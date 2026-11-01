@@ -76,28 +76,28 @@
     <rect x="72.5" y="432.5" width="1055" height="91" rx="18" fill="#FFFFFF" fill-opacity="0.62" stroke="#000000" stroke-opacity="0.10"/>
     <g transform="translate(100 449) scale(0.5416666666666666)" fill="none" stroke="#C7340F" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12V4h8l10 10-7 7z"/><circle cx="7.5" cy="8.5" r="1.2"/></g>
     <text x="120.0" y="460" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="1.2" fill="#6F6F6A">VERSION</text>
-    <text x="100.0" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#C7340F">v0.1.0</text>
-    <text x="100.0" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#8A8A85">released Oct 28, 2026</text>
-    <rect x="299.8" y="452" width="1" height="52" fill="#000000" fill-opacity="0.09"/>
-    <g transform="translate(327.75091575091574 449) scale(0.5416666666666666)" fill="none" stroke="#C7340F" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4"/></g>
-    <text x="347.8" y="460" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="1.2" fill="#6F6F6A">TERRAFORM</text>
-    <text x="327.8" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#0A0A0A">1.0<tspan font-size="14" font-weight="600" fill="#6F6F6A" dx="3">+</tspan></text>
-    <text x="327.8" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#8A8A85">and OpenTofu</text>
-    <rect x="480.5" y="452" width="1" height="52" fill="#000000" fill-opacity="0.09"/>
-    <g transform="translate(508.49816849816847 449) scale(0.5416666666666666)" fill="none" stroke="#C7340F" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="m12 2 10 6-10 6L2 8z"/><path d="m2 12 10 6 10-6"/></g>
-    <text x="528.5" y="460" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="1.2" fill="#6F6F6A">RESOURCES</text>
-    <text x="508.5" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#0A0A0A">3</text>
-    <text x="508.5" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#8A8A85">source, monitor, alert</text>
-    <rect x="715.6" y="452" width="1" height="52" fill="#000000" fill-opacity="0.09"/>
-    <g transform="translate(743.6336996336996 449) scale(0.5416666666666666)" fill="none" stroke="#C7340F" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4C6 4 7 9 4 12c3 3 2 8 5 8M15 4c3 0 2 5 5 8-3 3-2 8-5 8"/></g>
-    <text x="763.6" y="460" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="1.2" fill="#6F6F6A">DATA SOURCES</text>
-    <text x="743.6" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#0A0A0A">3</text>
-    <text x="743.6" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#8A8A85">source, policy, schedule</text>
-    <rect x="965.5" y="452" width="1" height="52" fill="#000000" fill-opacity="0.09"/>
-    <g transform="translate(993.5384615384615 449) scale(0.5416666666666666)" fill="none" stroke="#C7340F" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M5 7h14"/><path d="M5 7 2 14a3.5 3.5 0 0 0 6 0zM19 7l-3 7a3.5 3.5 0 0 0 6 0z"/></g>
-    <text x="1013.5" y="460" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="1.2" fill="#6F6F6A">LICENSE</text>
-    <text x="993.5" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#0A0A0A">MIT</text>
-    <text x="993.5" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#8A8A85">open source</text>
+    <text x="100.0" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#C7340F">v0.1.1</text>
+    <text x="100.0" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#8A8A85">released Nov 1, 2026</text>
+    <rect x="293.9" y="452" width="1" height="52" fill="#000000" fill-opacity="0.09"/>
+    <g transform="translate(321.9181757209926 449) scale(0.5416666666666666)" fill="none" stroke="#C7340F" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4"/></g>
+    <text x="341.9" y="460" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="1.2" fill="#6F6F6A">TERRAFORM</text>
+    <text x="321.9" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#0A0A0A">1.0<tspan font-size="14" font-weight="600" fill="#6F6F6A" dx="3">+</tspan></text>
+    <text x="321.9" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#8A8A85">and OpenTofu</text>
+    <rect x="475.9" y="452" width="1" height="52" fill="#000000" fill-opacity="0.09"/>
+    <g transform="translate(503.9382964453387 449) scale(0.5416666666666666)" fill="none" stroke="#C7340F" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="m12 2 10 6-10 6L2 8z"/><path d="m2 12 10 6 10-6"/></g>
+    <text x="523.9" y="460" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="1.2" fill="#6F6F6A">RESOURCES</text>
+    <text x="503.9" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#0A0A0A">3</text>
+    <text x="503.9" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#8A8A85">source, monitor, alert</text>
+    <rect x="712.7" y="452" width="1" height="52" fill="#000000" fill-opacity="0.09"/>
+    <g transform="translate(740.729711602951 449) scale(0.5416666666666666)" fill="none" stroke="#C7340F" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4C6 4 7 9 4 12c3 3 2 8 5 8M15 4c3 0 2 5 5 8-3 3-2 8-5 8"/></g>
+    <text x="760.7" y="460" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="1.2" fill="#6F6F6A">DATA SOURCES</text>
+    <text x="740.7" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#0A0A0A">3</text>
+    <text x="740.7" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#8A8A85">source, policy, schedule</text>
+    <rect x="964.4" y="452" width="1" height="52" fill="#000000" fill-opacity="0.09"/>
+    <g transform="translate(992.3943661971832 449) scale(0.5416666666666666)" fill="none" stroke="#C7340F" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M5 7h14"/><path d="M5 7 2 14a3.5 3.5 0 0 0 6 0zM19 7l-3 7a3.5 3.5 0 0 0 6 0z"/></g>
+    <text x="1012.4" y="460" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="1.2" fill="#6F6F6A">LICENSE</text>
+    <text x="992.4" y="492" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8" fill="#0A0A0A">MIT</text>
+    <text x="992.4" y="511" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#8A8A85">open source</text>
   </g>
   </g>
   <rect x="0.5" y="0.5" width="1199" height="555" rx="19.5" fill="none" stroke="#000000" stroke-opacity="0.12"/>
