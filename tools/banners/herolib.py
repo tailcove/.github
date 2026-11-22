@@ -95,6 +95,25 @@ def _react_native_cells():
             ("box", "EXPO", "Managed + bare", "no config plugin"), ("scale", "LICENSE", "MIT", "open source")]
 
 
+def _pub_or_unreleased(pkg):
+    """Latest pub.dev version and date, or None while the package has no release (pub.dev answers 404)."""
+    try:
+        data = json.loads(_fetch(f"https://pub.dev/api/packages/{pkg}", fresh=True))
+    except urllib.error.HTTPError as e:
+        if e.code != 404:
+            raise
+        return None
+    return data["latest"]["version"], _date(data["latest"]["published"])
+
+
+def _flutter_cells():
+    fl = _pub_or_unreleased("tailcove_flutter")
+    version = ("tag", "VERSION", fl[0], f"released {fl[1]}") if fl else ("tag", "VERSION", "Soon", "first release on pub.dev")
+    return [version, ("chip", "PLATFORMS", "iOS · Android", "macOS, Windows, Linux too"),
+            ("layers", "FLUTTER", "3.19+", "Dart 3.3 and newer"), ("pulse", "ERRORS", "Flutter + Dart", "framework and uncaught"),
+            ("scale", "LICENSE", "MIT", "open source")]
+
+
 def _pypi():
     data = json.loads(_fetch("https://pypi.org/pypi/tailcove/json", fresh=True))
     version = data["info"]["version"]
@@ -142,6 +161,8 @@ def package_cells(only=None):
         return {"terraform": _terraform_cells()}
     if only == "react-native":
         return {"react-native": _react_native_cells()}
+    if only == "flutter":
+        return {"flutter": _flutter_cells()}
 
     nv, nd, ns = _npm("@tailcove/node")
     bv, bd, bs = _npm("@tailcove/browser")
@@ -163,6 +184,7 @@ def package_cells(only=None):
         "agent": _agent_cells(),
         "terraform": _terraform_cells(),
         "react-native": _react_native_cells(),
+        "flutter": _flutter_cells(),
         "_versions": {"laravel": lv, "node": nv, "python": pv, "browser": bv},
     }
 

@@ -166,6 +166,24 @@ PACKAGES["react-native"] = dict(
     foot="Expo · Hermes · iOS + Android · TypeScript types included",
 )
 
+PACKAGES["flutter"] = dict(
+    pkg="tailcove_flutter", title="main.dart", label="Flutter",
+    h1="Flutter logs,", h2="and Dart errors", sub="Batched · kept across restarts · one wrapper.",
+    cmd="flutter pub add tailcove_flutter",
+    code=[
+        [("import", "kw"), (" ", "p"), ("'package:tailcove_flutter/tailcove_flutter.dart'", "st"), (";", "p")],
+        [],
+        [("void", "kw"), (" ", "p"), ("main", "fn"), ("() => ", "p"), ("Tailcove", "fn"), (".", "p"), ("runApp", "fn"), ("(", "p")],
+        [("  ", "p"), ("const", "kw"), (" ", "p"), ("TailcoveOptions", "fn"), ("(", "p")],
+        [("    appKey: ", "p"), ("'tca_your_app_key'", "st"), (",", "p")],
+        [("    appId: ", "p"), ("'com.acme.shop'", "st"), (",", "p")],
+        [("  ),", "p")],
+        [("  () => ", "p"), ("runApp", "fn"), ("(", "p"), ("const", "kw"), (" ", "p"), ("MyApp", "fn"), ("()),", "p")],
+        [(");", "p")],
+    ],
+    foot="iOS · Android · desktop · navigator breadcrumbs",
+)
+
 CHAR_W = 7.9  # monospace advance at 13px
 
 
