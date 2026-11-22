@@ -148,6 +148,24 @@ PACKAGES["terraform"] = dict(
     foot="Write-only secrets · safe retries · import",
 )
 
+PACKAGES["react-native"] = dict(
+    pkg="@tailcove/react-native", title="App.tsx", label="React Native",
+    h1="React Native logs,", h2="and JS crashes", sub="Batched · kept offline · works in Expo.",
+    cmd="npm install @tailcove/react-native",
+    code=[
+        [("import", "kw"), (" { Tailcove } ", "p"), ("from", "kw"), (" '@tailcove/react-native'", "st"), (";", "p")],
+        [],
+        [("const", "kw"), (" log = ", "p"), ("Tailcove", "fn"), (".", "p"), ("init", "fn"), ("({", "p")],
+        [("  appKey: ", "p"), ("'tca_your_app_key'", "st"), (",", "p")],
+        [("  appId: ", "p"), ("'com.acme.shop'", "st"), (",", "p")],
+        [("  storage: AsyncStorage,", "p")],
+        [("});", "p")],
+        [],
+        [("log.", "p"), ("error", "fn"), ("(", "p"), ("'payment failed'", "st"), (", { orderId: ", "p"), ("99", "num"), (" });", "p")],
+    ],
+    foot="Expo · Hermes · iOS + Android · TypeScript types included",
+)
+
 CHAR_W = 7.9  # monospace advance at 13px
 
 

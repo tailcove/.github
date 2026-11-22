@@ -11,6 +11,7 @@ import os
 import re
 import tarfile
 import time
+import urllib.error
 import urllib.request
 from datetime import datetime
 from html import escape
@@ -75,6 +76,25 @@ def _npm(pkg):
     return version, _date(data["time"][version]), len(gzip.compress(core, 9))
 
 
+def _npm_or_unreleased(pkg):
+    """Like _npm, for a package whose first release may not be out yet: npm answers 404 until then, and one
+    unreadable registry would stop the hourly refresh of every banner. Any other error still stops it."""
+    try:
+        return _npm(pkg)
+    except urllib.error.HTTPError as e:
+        if e.code != 404:
+            raise
+        return None
+
+
+def _react_native_cells():
+    rn = _npm_or_unreleased("@tailcove/react-native")
+    version = ("tag", "VERSION", rn[0], f"released {rn[1]}") if rn else ("tag", "VERSION", "Soon", "first release on npm")
+    size = ("weight", "SIZE", _kb(rn[2]), "gzipped, core client") if rn else ("weight", "SIZE", "No native", "plain JavaScript")
+    return [version, ("chip", "PLATFORMS", "iOS · Android", "React Native 0.70+"), size,
+            ("box", "EXPO", "Managed + bare", "no config plugin"), ("scale", "LICENSE", "MIT", "open source")]
+
+
 def _pypi():
     data = json.loads(_fetch("https://pypi.org/pypi/tailcove/json", fresh=True))
     version = data["info"]["version"]
@@ -120,6 +140,8 @@ def package_cells(only=None):
         return {"agent": _agent_cells()}
     if only == "terraform":
         return {"terraform": _terraform_cells()}
+    if only == "react-native":
+        return {"react-native": _react_native_cells()}
 
     nv, nd, ns = _npm("@tailcove/node")
     bv, bd, bs = _npm("@tailcove/browser")
@@ -140,6 +162,7 @@ def package_cells(only=None):
                     ("scale", "LICENSE", "MIT", "open source")],
         "agent": _agent_cells(),
         "terraform": _terraform_cells(),
+        "react-native": _react_native_cells(),
         "_versions": {"laravel": lv, "node": nv, "python": pv, "browser": bv},
     }
 
